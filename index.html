@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Landing Website</title>
+
+    <!-- favicon link -->
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+    <!-- background slider cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-hiking"></i> travel. </a>
+
+      <nav class="navbar">
+        <a href="#home">trang chủ</a>
+        <a href="#about">giới thiệu</a>
+        <a href="#shop">cửa hàng</a>
+        <a href="#packages">dịch vụ</a>
+        <a href="#reviews">đánh giá</a>
+        <a href="#blogs">bài viết</a>
+      </nav>
+      <i class="fas fa-shopping-cart" id="cart-icon"></i>
+      <div class="cart">
+        <h3>Giỏ hàng</h3>
+
+        <div class="cart-content"></div>
+
+        <!-- Total -->
+        <div class="total">
+          <div class="total-title">Giá</div>
+          <div class="total-price">$0</div>
+        </div>
+        <!-- Buy button -->
+        <button type="button" class="btn-buy">Mua ngay</button>
+        <!-- Cart close -->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+      </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- home section start  -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(./assets/images/home-bg-1.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>Không ngừng</span>
+                <h3>khám phá</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box second"
+              style="background: url(./assets/images/home-bg-2.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>Trải nghiệm</span>
+                <h3>tuyệt vời</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(./assets/images/home-bg-3.jpg) no-repeat"
+            >
+              <div class="content">
+                <span>Khám phá</span>
+                <h3>thế giới mới</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- category section starts  -->
+    <section class="category">
+      <h1 class="heading">ý tưởng phiêu lưu</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/images/category-1.jpg" alt="" />
+          <h3>nhảy dù</h3>
+          <p>
+            Là môn thể thao mạo hiểm bằng cách nhảy ra khỏi một chiếc máy bay
+            hay dụng cụ bay khác ở trên không và rơi tự do với độ cao lớn.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./assets/images/category-2.jpg" alt="" />
+          <h3>zipline</h3>
+          <p>
+            Với trò chơi trượt zipline bạn sẽ được thả mình trên cao, ngắm nhìn
+            cảnh vật từ một góc độ khác đầy thú vị.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./assets/images/category-3.jpg" alt="" />
+          <h3>chèo thuyền canoe</h3>
+          <p>
+            Chèo thuyền canoe chỉ khác thuyền kayak ở chỗ vị trí người ngồi và
+            mái chèo là 1 cánh
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./assets/images/category-4.jpg" alt="" />
+          <h3>chèo thuyền kayak</h3>
+          <p>
+            Một môn thể thao thú vị sử dụng thuyền kayak để di chuyển trên mặt
+            nước, cùng với sự trợ giúp của một mái chèo hai cánh
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="./assets/images/about-img.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>trải nghiệm đáng nhớ</h3>
+        <p>
+          Bạn, gia đình,công ty của bạn đang không biết phải đi đến đâu trong
+          mùa nghỉ này hay chưa có ý tưởng gì cho chuyến đi sắp tới. Bạn sẽ phải
+          nhớ mãi khi chọn sản phẩm và dịch vụ của chúng tôi, tôi sẽ chia sẻ sản
+          phẩm và dịch vụ:
+        </p>
+        <div class="content-box">
+          <ul class="pro">
+            <h4>sản phẩm</h4>
+            <li>Tiện ích</li>
+            <li>Dễ sử dụng</li>
+            <li>Hiệu quả</li>
+            <li>Bảo hành trong vòng 7 ngày sau khi mua</li>
+          </ul>
+          <ul class="ser">
+            <h4>dịch vụ</h4>
+            <li>An toàn cao</li>
+            <li>Trách nhiệm cao</li>
+            <li>Nhân viên nhiệt tình</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- shop section starts  -->
+    <section class="shop" id="shop">
+      <h1 class="heading">sản phẩm nổi bật</h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <!-- box 1 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-1.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">Lều cắm trại</h3>
+            <span class="price">$125.03</span>
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+
+          <!-- box 2 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-2.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">Dao ngắn</h3>
+            <span class="price">$10.5</span>
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+
+          <!-- box 3 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-3.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">Kính</h3>
+            <span class="price">$60.3</span>
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+
+          <!-- box 4 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-4.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">giày</h3>
+            <span class="price">$65.8</span>
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+
+          <!-- box 5 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-5.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">móc</h3>
+            <span class="price">$9.03</span>
+
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+
+          <!-- box 6 -->
+          <div class="swiper-slide slide">
+            <img
+              src="./assets/images/product-6.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h3 class="product-title">bếp</h3>
+            <span class="price">$80.9</span>
+
+            <i class="fas fa-shopping-cart add-cart"></i>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- shop section ends -->
+
+    <!-- packages section starts  -->
+    <section class="packages" id="packages">
+      <h1 class="heading">dịch vụ</h1>
+
+      <div class="box-container">
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>Siqueira Campos, Brazil</span>
+              <h2>nhà, sông, núi</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-1.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Tìm hiểu văn hóa.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>Ko Nang Yuan, thái lan</span>
+              <h2>đảo, biển, núi</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-2.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Tìm hiểu văn hóa.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>alps, pháp</span>
+              <h2>núi, đồi</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-3.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Hành trình ngắn.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>Žilina, bắc Slovakia</span>
+              <h2>núi, đồi, nhà</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-4.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Tìm hiểu văn hóa.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>Biaritz, Pháp</span>
+              <h2>lướt sóng, biển</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-5.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Tìm hiểu văn hóa.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="inner">
+            <div class="content">
+              <span>Luberon, Pháp</span>
+              <h2>đạp xe, thiên nhiên</h2>
+            </div>
+
+            <div class="lower">
+              <img src="./assets/images/img-6.jpg" class="img" alt="" />
+              <ul class="feature-list">
+                <li>Đạp xe cùng đoàn.</li>
+                <li>Ngắm cảnh đẹp.</li>
+                <li>Trải nghiệm thú vị.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+    <!-- reviews section starts  -->
+    <section class="reviews" id="reviews">
+      <h1 class="heading">đánh giá của khách hàng</h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p class="text">
+              Tôi có trải nghiệm rất thụ vị khi đi cùng gia đình của tôi, không
+              khí ở Bulgaria rất tuyệt. Tôi có thời gian 7 ngày tại nơi đây, ban
+              đầu tôi không có ý tưởng gì nhưng sau khi tham khảo tôi thấy
+              Travel. đã giúp tôi có nhiều ý tưởng hay. Mọi người tham khảo và
+              sử dụng dịch vụ của Travel nhé(lời khuyên của mình!)
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-1.png" alt="" />
+              <div class="info">
+                <h3>john deo</h3>
+                <span>nhà thiết kế</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p class="text">
+              Kỳ nghỉ đông này tôi không có nhiều ý tưởng cho bài sáng tác ca
+              khác mới, tôi đã có suy nghĩ là "mình nên đi du lịch" để có thêm ý
+              tưởng mới, nhưng không biết đi đâu nên tôi đã sử dụng dịch vụ và
+              sản phẩm của Travel. Wow! thật tuyệt dịch vụ của Travel làm tôi
+              rất hài lòng. Mọi người tham khảo của Travel nhé!
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-2.png" alt="" />
+              <div class="info">
+                <h3>diane kruger</h3>
+                <span>ca sĩ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p class="text">
+              Tôi có chuyến đi công tác tại Pháp, nhưng chờ visa cảm thấy buồn
+              nên tôi đã đi du lịch tới miền tây nước pháp. Bordeaux đã giúp tôi
+              tìm hiểu thêm về ngành rượu vang từ thế kỷ thứ 8, đó là có sự trợ
+              giúp đến từ nhà Travel, Travel đã cho tôi thêm kiến thức tại đất
+              nước mà tôi công tác. Mọi người nhớ sử dụng dịch vụ nhé.
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-3.png" alt="" />
+              <div class="info">
+                <h3>hafþór björnsson</h3>
+                <span>người mẫu</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p class="text">
+              Du lịch một mình làm cho bản thân mình kiên cường, mạnh mẽ. Bản thân vừa có trải nghiệm
+              chuyến đi 7 ngày tại Dolomites, Ý. Đến Hồ Garda hoặc Cortina hoặc lên đỉnh Vajolet Towers, nơi tụ tập dân leo núi đầu thế giới. Thử thách lớn mới chiến thắng bản thân, hãy chọn nhà Travel để đồng hành nhé các bạn!
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-4.png" alt="" />
+              <div class="info">
+                <h3>ninel conde</h3>
+                <span>diễn viên</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p class="text">
+             Là nhà sáng tạo nội dung luôn làm cho bản thân mình mới. Với nội dung là du lịch, trải nghiệm và đây là nội dung mới tôi chưa hề có kinh nghiệm trong lĩnh vực này, chưa biết đi đâu nên tôi đã chọn Tavel - website du lịch hay, đã giúp tôi có trải nghiệm tuyệt vời, giúp mình có thêm kinh nghiệm, kiến thức đất nước mà mình du lịch.
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-5.png" alt="" />
+              <div class="info">
+                <h3>Salman Khan</h3>
+                <span>người sáng tạo nội dung</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p class="text">
+              Florence, Italy nơi đây không chỉ nổi tiểng với nhiều tác phẩm có nét kiến trúc cổ xưa, mà còn được biết đến là thành phố có nền ẩm thực phong phú. Bên cạnh đó khi tới thăm Florence, du khách còn được tận mắt chiêm ngưỡng vẻ đẹp độc đáo những công trình nghệ thuật xuất phát từ nét đặc trưng văn hóa châu Âu.
+            </p>
+            <div class="user">
+              <img src="./assets/images/pic-6.png" alt="" />
+              <div class="info">
+                <h3>lana condori</h3>
+                <span>người mẫu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- reviews section ends -->
+
+    <!-- blogs section starts  -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">bài viết hằng ngày của chúng tôi</h1>
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="./assets/images/img-m1.jpg" alt="" />
+            <div class="icons">
+              <a href="#"><i class="fas fa-calendar"></i> 09/10/2022 </a>
+              <a href="#"><i class="fas fa-user"></i> @user </a>
+            </div>
+            <h3>Duisitzkarsee - Một viên ngọc tự nhiên</h3>
+            <a href="./blog1.html" class="btn">Xem ngay</a>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="./assets/images/img-m2.jpg" alt="" />
+            <div class="icons">
+              <a href="#"><i class="fas fa-calendar"></i> 09/10/2022 </a>
+              <a href="#"><i class="fas fa-user"></i> @user </a>
+            </div>
+            <h3>Trekking Himalaya một lần trong đời.</h3>
+            <a href="./blog2.html" class="btn">Xem ngay</a>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="./assets/images/img-m3.jpg" alt="" />
+            <div class="icons">
+              <a href="#"><i class="fas fa-calendar"></i> 09/10/2022 </a>
+              <a href="#"><i class="fas fa-user"></i> @user </a>
+            </div>
+            <h3>
+              10 tip để lập kế hoạch cho một kỳ nghỉ gia đình hợp túi tiền
+            </h3>
+            <a href="./blog3.html" class="btn">Xem ngay</a>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="./assets/images/img-m4.jpg" alt="" />
+            <div class="icons">
+              <a href="#"><i class="fas fa-calendar"></i> 09/10/2022 </a>
+              <a href="#"><i class="fas fa-user"></i> @user </a>
+            </div>
+            <h3>Chuyến Đi Đến Lưỡi Quỷ Trolltunga - Na Uy</h3>
+            <a href="./blog4.html" class="btn">Xem ngay</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+      <div class="content">
+        <h1 class="heading">Phản hồi</h1>
+        <p>
+          Mọi yêu cầu thắc mắc của bạn, xin vui lòng nhập thông tin phía dưới.
+          Chúng tôi rất vui lòng hỗ trợ, xử lý yêu cầu của bạn. <br />
+          Xin cảm ơn!
+        </p>
+        <form id="form">
+          <input
+            type="text"
+            name="from_name"
+            placeholder="Họ và tên của bạn"
+            required
+          />
+          <input type="email" name="email_id" placeholder="Email id" required />
+          <input
+            type="text"
+            name="phone"
+            placeholder="Số điện thoại"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Chúng tôi có thể giúp gì cho bạn?"
+            required
+          ></textarea>
+          <input type="submit" id="button" value="Đăng ký"></input>
+        </form>
+      </div>
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- clients section starts  -->
+    <section class="clients">
+      <div class="swiper clients-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide silde">
+            <img src="./assets/images/client-logo-1.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="./assets/images/client-logo-2.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="./assets/images/client-logo-3.png" alt="" />
+          </div>
+          <div class="swiper-slide silde">
+            <img src="./assets/images/client-logo-4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- clients section ends -->
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>danh sách trang</h3>
+          <a href="#home">trang chủ</a>
+          <a href="#about">giới thiệu</a>
+          <a href="#shop">cửa hàng</a>
+          <a href="#packages">dịch vụ</a>
+          <a href="#reviews">đánh giá</a>
+          <a href="#blogs">bài viết</a>
+        </div>
+
+        <div class="box">
+          <h3>thông tin liên hệ</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#">
+            <i class="fas fa-envelope"></i> teamnumber12@gmail.com
+          </a>
+          <a href="#">
+            <i class="fas fa-map"></i> km10-nguyentrai-hadong-hanoi
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>theo dõi chúng tôi</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        được tạo bởi <span>@Nhóm_12</span> !!!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- Emailjs -->
+    <script src="./assets/js/email.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('oq9D6e1ozXPpPs3W_')
+  </script>
+    <!-- cart js  -->
+    <script src="./assets/js/cart.js"></script>
+    <!-- js cdn swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper file link  -->
+    <script src="./assets/js/swiper.js"></script>
+  </body>
+</html>

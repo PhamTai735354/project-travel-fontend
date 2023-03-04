@@ -1,0 +1,138 @@
+.blog1 {
+  padding: 0;
+  background-color: var(--white);
+}
+
+.blog1-header {
+  position: relative;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.blog1-header-img img {
+  width: 100%;
+}
+
+.blog1-header-bg img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.blog1-content {
+  padding: 5rem 9%;
+  width: 80%;
+  text-align: justify;
+  min-height: auto;
+  position: absolute;
+  background: linear-gradient(
+    to top,
+    rgba(225, 227, 222, 0),
+    rgba(234, 234, 234, 1)
+  );
+  width: 106rem;
+  top: 23%;
+  left: 7%;
+  border: var(--border) #ccc;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  text-transform: none;
+}
+
+.blog1-content-heading {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1.4rem;
+  color: var(--black);
+  text-transform: none;
+}
+
+.blog1-content h2 {
+  font-size: 2rem;
+  color: var(--green);
+  text-transform: none;
+}
+
+.blog1-content-box {
+  padding: 2rem 0;
+  border-bottom: 1px dashed var(--black);
+}
+
+.box-1 {
+  display: flex;
+}
+
+.box-box1 {
+  flex: 1;
+}
+
+.box-box1 img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.box-box1-info {
+  padding-top: 1.8rem;
+}
+
+.box-box1-info span {
+  color: var(--green);
+  font-size: 2rem;
+  text-transform: none;
+}
+
+.box-box1-info span p {
+  padding: 1.4rem 0 1.4rem 0.4rem;
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: none;
+}
+
+.box-box1 h3 {
+  font-style: italic;
+  color: var(--green);
+  font-size: 1.8rem;
+  padding-bottom: 2.4rem;
+  text-transform: none;
+}
+
+.box-box1 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: none;
+}
+
+.box-box2 {
+  flex: 1;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+}
+
+.box-box2-heading {
+  font-size: 1.5rem;
+  flex: 1;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.box-box2 p {
+  margin-top: 1.4rem;
+  font-size: 1.5rem;
+  flex: 1;
+  font-weight: 200;
+  text-transform: none;
+}
+
+.blog1-foot-box .slide {
+  padding: 2rem;
+}
+
+.blog1-foot-box .slide img {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
